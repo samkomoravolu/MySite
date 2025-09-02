@@ -5,14 +5,14 @@ const experiences = [
   {
     title: "Amazon — SDE Intern (Fall 2025)",
     location: "Minneapolis, MN",
-    logo: "./Images/amazon.png",
+    logo: "/home/Images/amazon.png",
     description:
       "I will be joining Amazon as a Software Development Engineer Intern, where I'll work on large-scale distributed systems powering customer experiences at global scale. My focus will be on backend services, reliability, and optimizing performance across high-volume infrastructure.",
   },
   {
     title: "Grammarly — ML Research Intern (Summer 2025)",
     location: "San Francisco, CA",
-    logo: "./Images/grammarly.png",
+    logo: "/home/Images/grammarly.png",
     description: (
       <>
         At Grammarly, I contributed as a Machine Learning Research Intern in agentic AI safety. Under the mentorship of the 🐐 
@@ -31,14 +31,14 @@ const experiences = [
   {
     title: "Chamberlain Group — SWE Intern (2023 & 2024)",
     location: "Oak Brook, IL",
-    logo: "./Images/chamberlain_group.jpg",
+    logo: "/home/Images/chamberlain_group.jpg",
     description:
       "I spent two summers as a Software Engineering Intern at Chamberlain Group, modernizing and automating their engineering workflows. Under the mentorship of Ram Manoher, I built a dependency graph tool that automatically generated API documentation, saving engineers time across repositories. I also migrated production services to .NET 6, cutting runtimes dramatically, and worked with Azure DevOps and CosmosDB to manage high-volume user data migrations.",
   },
   {
     title: "Fermilab — Student Researcher (2020–2022)",
     location: "Batavia, IL",
-    logo: "./Images/fermilab.png",
+    logo: "/home/Images/fermilab.png",
     description:
       "I began my research journey at Fermilab, where I worked on deep learning methods for high-energy physics under the mentorship of Peter Dong. Using DNNs, I filtered lepton events with high efficiency in the search for dark photons, while processing tens of thousands of simulated particle interactions. I authored custom C++ packages to analyze and store experimental data, and my work contributed to multiple publications on arXiv, along with conference presentations.",
   },
@@ -91,7 +91,7 @@ export default function MagicalResume() {
             Funny Photos
           </a>
           <a 
-            href="./Sameer_K_2025_Resume.pdf" 
+            href="/home/Sameer_K_2025_Resume.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
@@ -105,11 +105,11 @@ export default function MagicalResume() {
         {/* Sidebar */}
         <div className="w-1/4 fixed top-0 left-0 h-full flex flex-col items-center justify-center border-r border-gray-800 p-6">
                   <div className="h-40 w-40 rounded-full border-4 border-indigo-500 shadow-lg bg-gray-700 flex items-center justify-center">
-          <img 
-            src="./Images/IMG_4308.jpg" 
-            alt="Sameer Komoravolu" 
-            className="h-36 w-36 rounded-full object-cover"
-          />
+                      <img 
+              src="/home/Images/IMG_4308.jpg" 
+              alt="Sameer Komoravolu" 
+              className="h-36 w-36 rounded-full object-cover"
+            />
         </div>
           <h1 className="text-2xl font-bold mt-4">Sameer Komoravolu</h1>
           <p className="text-sm text-gray-400">ML Researcher • Software Engineer</p>

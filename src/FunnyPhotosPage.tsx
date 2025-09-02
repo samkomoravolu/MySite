@@ -31,7 +31,7 @@ export default function FunnyPhotosPage() {
             Funny Photos
           </a>
           <a 
-            href="./Sameer_K_2025_Resume.pdf" 
+            href="/home/Sameer_K_2025_Resume.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
@@ -46,7 +46,7 @@ export default function FunnyPhotosPage() {
         <div className="w-1/4 fixed top-0 left-0 h-full flex flex-col items-center justify-center border-r border-gray-800 p-6">
           <div className="h-40 w-40 rounded-full border-4 border-indigo-500 shadow-lg bg-gray-700 flex items-center justify-center">
             <img 
-              src="./Images/IMG_4308.jpg" 
+              src="/home/Images/IMG_4308.jpg" 
               alt="Sameer Komoravolu" 
               className="h-36 w-36 rounded-full object-cover"
             />
@@ -81,7 +81,7 @@ export default function FunnyPhotosPage() {
               <div className="grid grid-cols-3 gap-8">
                 <div className="text-center">
                   <img 
-                    src="./Images/funnyfish.gif" 
+                    src="/home/Images/funnyfish.gif" 
                     alt="Funny Fish GIF" 
                     className="w-32 h-32 object-cover rounded-lg shadow-lg"
                   />
@@ -90,14 +90,14 @@ export default function FunnyPhotosPage() {
                   </p>
                   <div className="flex space-x-2 justify-center mt-2">
                     <a 
-                      href="./Images/funnyfish.gif" 
+                      href="/home/Images/funnyfish.gif" 
                       download="funnyfish.gif"
                       className="inline-block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 hover:from-yellow-500 hover:via-orange-500 hover:to-red-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Save
                     </a>
                     <button 
-                      onClick={() => navigator.share({ title: 'Funny Fish GIF', url: './Images/funnyfish.gif' })}
+                      onClick={() => navigator.share({ title: 'Funny Fish GIF', url: '/home/Images/funnyfish.gif' })}
                       className="inline-block bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Share
@@ -107,7 +107,7 @@ export default function FunnyPhotosPage() {
                 
                 <div className="text-center">
                   <img 
-                    src="./Images/penguinbro.gif" 
+                    src="/home/Images/penguinbro.gif" 
                     alt="Penguin Bro GIF" 
                     className="w-32 h-32 object-cover rounded-lg shadow-lg"
                   />
@@ -116,14 +116,14 @@ export default function FunnyPhotosPage() {
                   </p>
                   <div className="flex space-x-2 justify-center mt-2">
                     <a 
-                      href="./Images/penguinbro.gif" 
+                      href="/home/Images/penguinbro.gif" 
                       download="penguinbro.gif"
                       className="inline-block bg-gradient-to-r from-cyan-400 via-blue-400 to-indigo-400 hover:from-cyan-500 hover:via-blue-500 hover:to-indigo-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Save
                     </a>
                     <button 
-                      onClick={() => navigator.share({ title: 'Penguin Bro GIF', url: './Images/penguinbro.gif' })}
+                      onClick={() => navigator.share({ title: 'Penguin Bro GIF', url: '/home/Images/penguinbro.gif' })}
                       className="inline-block bg-gradient-to-r from-green-400 via-emerald-400 to-blue-400 hover:from-green-500 hover:via-emerald-500 hover:to-blue-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Share
@@ -133,7 +133,7 @@ export default function FunnyPhotosPage() {
                 
                 <div className="text-center">
                   <img 
-                    src="./Images/walkingbob.gif" 
+                    src="/home/Images/walkingbob.gif" 
                     alt="Walking Bob GIF" 
                     className="w-32 h-32 object-cover rounded-lg shadow-lg"
                   />
@@ -142,14 +142,14 @@ export default function FunnyPhotosPage() {
                   </p>
                   <div className="flex space-x-2 justify-center mt-2">
                     <a 
-                      href="./Images/walkingbob.gif" 
+                      href="/home/Images/walkingbob.gif" 
                       download="walkingbob.gif"
                       className="inline-block bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400 hover:from-green-500 hover:via-emerald-500 hover:to-teal-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Save
                     </a>
                     <button 
-                      onClick={() => navigator.share({ title: 'Walking Bob GIF', url: './Images/walkingbob.gif' })}
+                      onClick={() => navigator.share({ title: 'Walking Bob GIF', url: '/home/Images/walkingbob.gif' })}
                       className="inline-block bg-gradient-to-r from-orange-400 via-red-400 to-pink-400 hover:from-orange-500 hover:via-red-500 hover:to-pink-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Share
@@ -159,7 +159,7 @@ export default function FunnyPhotosPage() {
                 
                 <div className="text-center">
                   <img 
-                    src="./Images/ipadkid.gif" 
+                    src="/home/Images/ipadkid.gif" 
                     alt="iPad Kid GIF" 
                     className="w-32 h-32 object-cover rounded-lg shadow-lg"
                   />
@@ -168,14 +168,14 @@ export default function FunnyPhotosPage() {
                   </p>
                   <div className="flex space-x-2 justify-center mt-2">
                     <a 
-                      href="./Images/ipadkid.gif" 
+                      href="/home/Images/ipadkid.gif" 
                       download="ipadkid.gif"
                       className="inline-block bg-gradient-to-r from-pink-400 via-purple-400 to-blue-400 hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Save
                     </a>
                     <button 
-                      onClick={() => navigator.share({ title: 'iPad Kid GIF', url: './Images/ipadkid.gif' })}
+                      onClick={() => navigator.share({ title: 'iPad Kid GIF', url: '/home/Images/ipadkid.gif' })}
                       className="inline-block bg-gradient-to-r from-yellow-400 via-orange-400 to-red-400 hover:from-yellow-500 hover:via-orange-500 hover:to-red-500 text-white px-3 py-1 rounded text-sm font-medium transition-all duration-300 shadow-lg"
                     >
                       Share
