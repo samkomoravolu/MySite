@@ -7,28 +7,28 @@ const hobbies = [
     stat: "UTR: 5.95",
     description: "I play a lot of this",
     color: "from-green-500 to-emerald-600",
-    image: "./Images/tennis.jpg"
+    image: "/home/Images/tennis.jpg"
   },
   {
     name: "Ping Pong",
     stat: "Rating: 1881",
     description: "and too much of this",
     color: "from-red-500 to-pink-600",
-    image: "./Images/pong.jpeg"
+    image: "/home/Images/pong.jpeg"
   },
   {
     name: "One Piece",
     stat: "Episodes binged: 1130",
     description: "📺👀",
     color: "from-blue-500 to-cyan-600",
-    image: "./Images/one_piece.webp"
+    image: "/home/Images/one_piece.webp"
   },
   {
     name: "Bouldering",
     stat: "Times fallen on my __: 24",
     description: "Yes i know this is hiking but it looks cooler",
     color: "from-orange-500 to-amber-600",
-    image: "./Images/hiking.jpg"
+    image: "/home/Images/hiking.jpg"
   }
 ];
 
@@ -55,31 +55,31 @@ export default function HobbiesPage() {
       }`}>
         <div className="flex space-x-6">
           <a 
-            href="./" 
+            href="/home/" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Home
           </a>
           <a 
-            href="./hobbies" 
+            href="/home/hobbies" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Hobbies
           </a>
           <a 
-            href="./publications" 
+            href="/home/publications" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Publications
           </a>
           <a 
-            href="./funny-photos" 
+            href="/home/funny-photos" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Funny Photos
           </a>
           <a 
-            href="./Sameer_K_2025_Resume.pdf"
+            href="/home/Sameer_K_2025_Resume.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
