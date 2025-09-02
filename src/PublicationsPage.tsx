@@ -55,6 +55,12 @@ export default function PublicationsPage() {
             Publications
           </a>
           <a 
+            href="/funny-photos" 
+            className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
+          >
+            Funny Photos
+          </a>
+          <a 
             href="/Sameer_K_2025_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -129,24 +135,24 @@ export default function PublicationsPage() {
                       {pub.description}
                     </p>
                     
-                                         <div className="flex space-x-6">
-                       <a 
-                         href={pub.arxiv} 
-                         target="_blank" 
-                         rel="noopener noreferrer"
-                         className="text-white hover:text-gray-300 transition-colors duration-200 text-sm font-bold"
-                       >
-                         arXiv
-                       </a>
-                       <a 
-                         href={pub.github} 
-                         target="_blank" 
-                         rel="noopener noreferrer"
-                         className="text-white hover:text-gray-300 transition-colors duration-200 text-sm font-bold"
-                       >
-                         GitHub
-                       </a>
-                     </div>
+                    <div className="flex space-x-6">
+                      <a 
+                        href={pub.arxiv} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-gray-300 transition-colors duration-200 text-sm font-bold"
+                      >
+                        arXiv
+                      </a>
+                      <a 
+                        href={pub.github} 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-gray-300 transition-colors duration-200 text-sm font-bold"
+                      >
+                        GitHub
+                      </a>
+                    </div>
                   </div>
                 </motion.div>
               ))}

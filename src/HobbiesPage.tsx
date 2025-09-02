@@ -73,6 +73,12 @@ export default function HobbiesPage() {
             Publications
           </a>
           <a 
+            href="/funny-photos" 
+            className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
+          >
+            Funny Photos
+          </a>
+          <a 
             href="/Sameer_K_2025_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
@@ -103,31 +109,31 @@ export default function HobbiesPage() {
               transition={{ duration: 0.8, delay: idx * 0.2 }}
               className="group"
             >
-                             <div className={`h-96 bg-gradient-to-b ${hobby.color} rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105`}>
-                 {/* Content */}
-                 <div className="flex flex-col h-full">
-                   <div className="mb-4">
-                     <h2 className="text-2xl font-bold text-white mb-2">{hobby.name}</h2>
-                     <p className="text-white/90 text-sm mb-4">{hobby.description}</p>
-                   </div>
-                   
-                   {/* Large Image */}
-                   <div className="flex-1 mb-4">
-                     <img 
-                       src={hobby.image} 
-                       alt={hobby.name}
-                       className="w-full h-full object-cover rounded-lg border-2 border-white/20"
-                     />
-                   </div>
-                   
-                   {/* Stat Badge */}
-                   <div className="mt-auto">
-                     <div className="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 inline-block">
-                       <span className="text-white font-semibold text-sm">{hobby.stat}</span>
-                     </div>
-                   </div>
-                 </div>
-               </div>
+              <div className={`h-96 bg-gradient-to-b ${hobby.color} rounded-2xl p-6 flex flex-col justify-between relative overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105`}>
+                {/* Content */}
+                <div className="flex flex-col h-full">
+                  <div className="mb-4">
+                    <h2 className="text-2xl font-bold text-white mb-2">{hobby.name}</h2>
+                    <p className="text-white/90 text-sm mb-4">{hobby.description}</p>
+                  </div>
+                  
+                  {/* Large Image */}
+                  <div className="flex-1 mb-4">
+                    <img 
+                      src={hobby.image} 
+                      alt={hobby.name}
+                      className="w-full h-full object-cover rounded-lg border-2 border-white/20"
+                    />
+                  </div>
+                  
+                  {/* Stat Badge */}
+                  <div className="mt-auto">
+                    <div className="bg-white/20 backdrop-blur-sm rounded-full px-4 py-2 inline-block">
+                      <span className="text-white font-semibold text-sm">{hobby.stat}</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </motion.div>
           ))}
         </div>
