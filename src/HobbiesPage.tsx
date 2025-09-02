@@ -79,7 +79,7 @@ export default function HobbiesPage() {
             Funny Photos
           </a>
           <a 
-            href="/Sameer_K_2025_Resume.pdf" 
+            href="./Sameer_K_2025_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"

@@ -61,7 +61,7 @@ export default function PublicationsPage() {
             Funny Photos
           </a>
           <a 
-            href="/Sameer_K_2025_Resume.pdf" 
+            href="./Sameer_K_2025_Resume.pdf" 
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
@@ -76,7 +76,7 @@ export default function PublicationsPage() {
         <div className="w-1/4 fixed top-0 left-0 h-full flex flex-col items-center justify-center border-r border-gray-800 p-6">
           <div className="h-40 w-40 rounded-full border-4 border-indigo-500 shadow-lg bg-gray-700 flex items-center justify-center">
             <img 
-              src="/Images/IMG_4308.jpg" 
+              src="./Images/IMG_4308.jpg" 
               alt="Sameer Komoravolu" 
               className="h-36 w-36 rounded-full object-cover"
             />
