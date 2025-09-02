@@ -9,7 +9,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
-    <Router basename="/home">
+    <Router>
       <Routes>
         <Route path="/" element={<MagicalResume />} />
         <Route path="/hobbies" element={<HobbiesPage />} />

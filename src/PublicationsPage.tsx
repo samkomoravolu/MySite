@@ -10,7 +10,7 @@ const publications = [
     arxiv: "https://arxiv.org/abs/...",
     github: "https://github.com/...",
     description: "First-authored paper on AI safety and automated testing of conversational agents.",
-    logo: "/home/Images/grammarly.png"
+    logo: "./Images/grammarly.png"
   }
 ];
 
@@ -37,31 +37,31 @@ export default function PublicationsPage() {
       }`}>
         <div className="flex space-x-6">
           <a 
-            href="/" 
+            href="./" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Home
           </a>
           <a 
-            href="/hobbies" 
+            href="./hobbies" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Hobbies
           </a>
           <a 
-            href="/publications" 
+            href="./publications" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Publications
           </a>
           <a 
-            href="/funny-photos" 
+            href="./funny-photos" 
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
           >
             Funny Photos
           </a>
           <a 
-            href="/home/Sameer_K_2025_Resume.pdf"
+            href="./Sameer_K_2025_Resume.pdf"
             target="_blank" 
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-indigo-400 transition-colors duration-200 font-medium"
@@ -76,7 +76,7 @@ export default function PublicationsPage() {
         <div className="w-1/4 fixed top-0 left-0 h-full flex flex-col items-center justify-center border-r border-gray-800 p-6">
           <div className="h-40 w-40 rounded-full border-4 border-indigo-500 shadow-lg bg-gray-700 flex items-center justify-center">
             <img 
-              src="/home/Images/IMG_4308.jpg" 
+              src="./Images/IMG_4308.jpg" 
               alt="Sameer Komoravolu" 
               className="h-36 w-36 rounded-full object-cover"
             />
